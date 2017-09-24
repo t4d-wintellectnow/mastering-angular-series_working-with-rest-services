@@ -1,0 +1,36 @@
+{
+  "widgets": [
+    {
+      "id": 1,
+      "name": "Small Red Widget",
+      "description": "A small red widget.",
+      "color": "red",
+      "size": "small",
+      "quantity": 23
+    },
+    {
+      "id": 2,
+      "name": "Medium Blue Widget",
+      "description": "A medium blue widget.",
+      "color": "blue",
+      "size": "medium",
+      "quantity": 12
+    },
+    {
+      "id": 3,
+      "name": "Large Green Widget",
+      "description": "A large green widget.",
+      "color": "green",
+      "size": "large",
+      "quantity": 45
+    },
+    {
+      "id": 4,
+      "name": "Medium Yellow Widget",
+      "description": "A medium yellow widget.",
+      "color": "yellow",
+      "size": "medium",
+      "quantity": 43
+    }
+  ]
+}
