@@ -1,0 +1,9 @@
+<td><input type="text" name="widgetName" [(ngModel)]="editWidget.name"></td>
+<td><input type="text" name="widgetDescription" [(ngModel)]="editWidget.description"></td>
+<td><input type="text" name="widgetColor" [(ngModel)]="editWidget.color"></td>
+<td><input type="text" name="widgetSize" [(ngModel)]="editWidget.size"></td>
+<td><input type="number" name="widgetQuantity" [(ngModel)]="editWidget.quantity"></td>
+<td>
+  <button type="button" (click)="onSave.emit(editWidget)">Save</button>
+  <button type="button" (click)="cancel()">Cancel</button>
+</td>

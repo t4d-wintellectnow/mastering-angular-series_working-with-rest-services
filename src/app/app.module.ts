@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { WidgetToolModule } from './widget-tool/widget-tool.module';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +10,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, WidgetToolModule
   ],
   providers: [],
   bootstrap: [AppComponent]

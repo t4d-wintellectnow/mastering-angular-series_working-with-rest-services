@@ -1,0 +1,6 @@
+<tool-header></tool-header>
+<widget-table [widgets]="widgets.getAll()" [editWidgetId]="editWidgetId"
+  (onEdit)="edit($event)" (onDelete)="delete($event)"
+  (onSave)="save($event)" (onCancel)="cancel()">
+</widget-table>
+<tool-footer></tool-footer>
